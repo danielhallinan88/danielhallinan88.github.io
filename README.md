@@ -1,1 +1,2 @@
-# danielhallinan88.github.io# https://help.github.com/en/articles/using-jekyll-as-a-static-site-generator-with-github-pages
+# danielhallinan88.github.io
+# https://r3bl.blog/en/jekyll-blogging-like-a-pro/
