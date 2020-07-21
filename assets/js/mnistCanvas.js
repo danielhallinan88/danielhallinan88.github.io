@@ -67,7 +67,7 @@ const pos = {x: 0, y: 0};
 if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   document.addEventListener('touchmove', draw);
   document.addEventListener('touchstart', setPosition);
-  //document.addEventListener('mouseenter', setPosition);
+  document.addEventListener('touchend', setPosition);
 } else {
   document.addEventListener('mousemove', draw);
   document.addEventListener('mousedown', setPosition);

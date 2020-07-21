@@ -4,6 +4,7 @@ title:  "Serving Machine Learning Models in the Browser with TensorflowJS"
 date:   2020-06-22 08:00:00 -0500
 categories: tensorflowjs keras
 ---
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
 You've cleaned your data, tuned the parameters, and trained a highly accurate model. Most machine learning tutorials stop at this point, but what if you would like to implement your model for use outside of a Jupyter notebook? One of the biggest challenges in machine learning is serving your model. You could save your trained model, and then serve it as a web app with something like Flask, but this can be slow and expensive due to its use of server resources. A more cost effective way is to serve the model as a static file directly to a client's browser with a service like Amazon S3. We will use an MNIST digit recognition model created from Keras, serve it in S3, and show how it can be served in a browser with TensorflowJS.  
 
